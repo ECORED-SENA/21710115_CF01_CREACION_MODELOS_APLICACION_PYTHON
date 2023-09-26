@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="459" height="290" viewBox="0 0 459 290">
+  <g id="Grupo_1076089" data-name="Grupo 1076089" transform="translate(6138 2764)">
+    <path id="Trazado_828782" data-name="Trazado 828782" d="M0,0V191" transform="translate(-5904.5 -2711.5)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_828783" data-name="Trazado 828783" d="M0,0H214" transform="translate(-6023 -2618)" fill="none" stroke="#12263f" stroke-width="3"/>
+    <path id="Trazado_828784" data-name="Trazado 828784" d="M0,195,223,0" transform="translate(-6016 -2715)" fill="none" stroke="#fce800" stroke-width="3"/>
+    <path id="Trazado_828785" data-name="Trazado 828785" d="M7.5,0,15,16H0Z" transform="translate(-5912 -2717)" fill="#12263f"/>
+    <path id="Trazado_828786" data-name="Trazado 828786" d="M7.5,0,15,16H0Z" transform="translate(-5795.5 -2625.5) rotate(90)" fill="#12263f"/>
+    <path id="Trazado_828787" data-name="Trazado 828787" d="M6.129-8.895,8.262-12.68h3.621L8.273-6.469,12.035,0H8.4L6.141-3.984,3.891,0H.246L4.008-6.469.41-12.68H4.043Z" transform="translate(-5817 -2594)" fill="#12263f"/>
+    <path id="Trazado_828788" data-name="Trazado 828788" d="M6.574-2.5A2.221,2.221,0,0,0,8.1-3.012a1.807,1.807,0,0,0,.609-1.371h3.176a4.344,4.344,0,0,1-.7,2.361A4.64,4.64,0,0,1,9.287-.357,5.923,5.923,0,0,1,6.633.234,5.5,5.5,0,0,1,2.344-1.494,6.84,6.84,0,0,1,.773-6.27v-.223a6.762,6.762,0,0,1,1.559-4.676,5.441,5.441,0,0,1,4.277-1.746,5.333,5.333,0,0,1,3.814,1.354,4.792,4.792,0,0,1,1.459,3.6H8.707A2.327,2.327,0,0,0,8.1-9.565a2.032,2.032,0,0,0-1.547-.619,2.04,2.04,0,0,0-1.787.863,5,5,0,0,0-.6,2.8v.352a5.063,5.063,0,0,0,.6,2.817A2.065,2.065,0,0,0,6.574-2.5Zm11.3-13.3v3.117h2.168V-10.2H17.871v6.328a1.511,1.511,0,0,0,.27,1.008,1.354,1.354,0,0,0,1.031.3,5.4,5.4,0,0,0,1-.082V-.07a6.972,6.972,0,0,1-2.051.3q-3.562,0-3.633-3.6V-10.2H12.633V-12.68h1.852V-15.8Z" transform="translate(-5933 -2695)" fill="#12263f"/>
+    <g id="Trazado_828789" data-name="Trazado 828789" transform="translate(-6138 -2764)" fill="none">
+      <path d="M0,0H459V290H0Z" stroke="none"/>
+      <path d="M 1 1 L 1 289 L 458 289 L 458 1 L 1 1 M 0 0 L 459 0 L 459 290 L 0 290 L 0 0 Z" stroke="none" fill="#8054f8"/>
+    </g>
+  </g>
+</svg>

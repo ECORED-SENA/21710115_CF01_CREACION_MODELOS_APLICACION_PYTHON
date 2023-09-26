@@ -1,19 +1,185 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: vanish 5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    bottom: 10%
+    left: 28%
+    width: 16%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    bottom: 45%
+    left: 9%
+    width: 15%
+  &-3
+    animation: float2 5s ease-in-out infinite alternate
+    position: absolute
+    top: 25%
+    right: 15%
+    width: 15%
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
+@keyframes vanish
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+.banner-principal__row .banner-principal__img
+  width: 40%
+
+.banner-principal__img
+  padding-top: 0rem !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img01.png") !important
+
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
+
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
+
+.BGIMG03
+  background-image: url("../assets/curso/fondos/img03.png")
+
+.BGIMG04
+  background-image: url("../assets/curso/fondos/img04.png")
+
+.BGIMG05
+  background-image: url("../assets/curso/fondos/img05.png")
+
+.tarjeta--boton.color-primario
+  background-image: url("../assets/curso/fondos/img06.png")
+
+.tarjeta--boton.color-primario:active
+  background-image: url("../assets/curso/fondos/img07.png") !important
+
+.BGIMG01, .BGIMG02, .BGIMG03, .BGIMG04, .BGIMG05, .tarjeta--boton.color-primario, .tarjeta--boton.color-primario:active
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG01, .BGIMG02, .BGIMG03
+  background-size: 100%
+
+.BGIMG04, .BGIMG05, .tarjeta--boton.color-primario, .tarjeta--boton.color-primario:active
+  background-size: cover
+
+.BGM02, .BGM05, .BGM07, .BGM10
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGP01, .BGP05, .BGP06,.BGP12
+  padding: 2px
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span, .BGP12
+  color: $white
+
+.BGP01, .BGP05, .BGP06
+  color: $color-sistema-texto !important
+
+.BG01, .BGP01
+  background-color: #D8DCFC
+
+.BGM02
+  background-color: #F7F4FF
+
+.BG03
+  background-color: $white
+
+.BG03
+  box-shadow: 5px 5px 10px #D6DEFF
+
+.BG04
+  background-color: #B4B9C5
+
+.BG05, .BGM05, .BGP05, .tarjeta--boton
+  background-color: #DBEFED
+
+.BGP06
+  background-color: #98D1CA
+
+.BGM07
+  background: linear-gradient(to bottom, #FFF, #F7F4FF, #F7F4FF, #F7F4FF)
+
+.BG08, .BG04.acordion__activo
+  background-color: #283859
+
+.BG09, .BGT09
+  background-color: #D3C3FD
+
+.BGM10
+  background: linear-gradient(to bottom, #FFF, #F6F6F6, #F6F6F6, #F6F6F6, #FFF)
+
+.BGM11
+  background: linear-gradient(to bottom, #FFF, #D8DCFC)
+
+.BG12, .BGP12
+  background-color: #1F1F1F
+
+.BGT09
+  border-radius: 0 41px 41px 0
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+.lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+
+.slyder-a__bullets__item--active
+  background-color: #8054F8 !important
+
+.slyder-a__bullets__item
+  background-color: #ECE5FE
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs, .acordion__accion__btn--b, .slyder__btn
+  background-color: #42F7C3
+  @media (max-width: $bp-max-xs)
+    width: 25px
+    height: 25px
+
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    width: 7px
+    height: 7px
+    margin: 0 5px
+
+.tarjeta--boton
+  &:hover
+    transform: scale(1.08)
+
+.zindex-1
+  z-index: 1
+
+.zindex-2
+  z-index: 2
+
+.t-ac
+  color: $color-acento-contenido !important
+
+.t-ab
+  color: $color-acento-botones !important
+
+.t-an
+  color: #BF7644 !important
+
+.t-ay
+  color: #DBCC03 !important
+
+.t-aw
+  color: $white
+
+.acordion__activo .acordion__header .acordion__titulo h3
+  color: #fff
