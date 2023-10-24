@@ -389,7 +389,7 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/tema1/img36.svg')
+                img(src='@/assets/curso/tema1/img36.svg', alt='Figura que muestra un árbol de decisión con sus respectivas ramificaciones, enlazadas por: nodo principal, nodos raíz, nodos intermedios y nodos terminales.')
 
             .tarjeta.BG01.p-3(x="42.2%" y="15%" numero="+")
               .h5.mb-2 Inicialización
@@ -479,7 +479,7 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/tema1/img40.svg')
+                img(src='@/assets/curso/tema1/img40.svg', alt='Esquema que expone y describe algunas ventajas y desventajas del uso de un árbol de decisión.')
 
             .tarjeta.BG01.p-3(x="8%" y="4.5%" numero="+")
               .h5.mb-2 Fácil de entender
@@ -512,7 +512,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img41.svg' alt="")
+          img(src='@/assets/curso/tema1/img41.svg' alt="Imagen que muestra un ejemplo de bosques aleatorios, mediante tres árboles de decisión, con sus respectivas ramificaciones, especificando cuáles se determinaron por mayoría o por promedio, llegando a un resultado final.")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2
