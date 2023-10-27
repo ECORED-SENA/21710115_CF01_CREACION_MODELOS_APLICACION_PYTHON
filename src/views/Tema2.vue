@@ -14,7 +14,7 @@
           .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
             img(src='@/assets/curso/tema2/img01.svg' alt="")
           .col-lg-9(data-aos="flip-right")
-            p.mb-0 La información puede ser recopilada por sistemas de información privada que almacenan información propia de cada negocio; por ejemplo, en un sistema de e-commerce, la empresa puede almacenar información de sus clientes, compras, productos más vistos, número de clics, horas de mayor acceso, lugar desde donde se accede, entre cientos de posibilidades; las empresas quieren tener la mayor cantidad de información de sus clientes, pues esto les permite entenderlos y, de cierta manera, fidelizarlos.
+            p.mb-0 La información puede ser recopilada por sistemas de información privada que almacenan información propia de cada negocio; por ejemplo, en un sistema de #[em e-commerce], la empresa puede almacenar información de sus clientes, compras, productos más vistos, número de #[em clics], horas de mayor acceso, lugar desde donde se accede, entre cientos de posibilidades; las empresas quieren tener la mayor cantidad de información de sus clientes, pues esto les permite entenderlos y, de cierta manera, fidelizarlos.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img02.png' alt="")
 
@@ -32,6 +32,9 @@
               div
                 p.mt-4 #[b.BGP01 Otras fuentes]
                 p.mb-0 También pueden existir fuentes de información públicas, ya sea gratuitas o de pago; cuando se realizan proyectos de ciencia de datos.
+              div
+                p.mt-4 #[b.BGP01 Dónde seleccionar los datos]
+                p.mb-0 Depende del objetivo, las necesidades y los requerimientos del negocio, por eso es muy importante conocerlo a profundidad y, a partir de allí, determinar si basta con las fuentes privadas o si es necesario recurrir a fuentes externas.
               div
                 p.mt-4 #[b.BGP01 Saberes claves]
                 p.mb-0 Durante la búsqueda y selección de la información, se deben tener habilidades en el manejo de archivos, conocimientos de bases de datos, manejo de sistemas de información, ya que estas herramientas son las que normalmente se utilizan para la administración y manipulación de los datos.
@@ -67,20 +70,20 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p.mb-0 Si bien ya se realizó la búsqueda y selección de los datos, aún falta mucho para empezar con la creación de los modelos de Machine Learning, esto debido a que cada algoritmo de clasificación tiene sus propios requerimientos en cuanto a la colección de datos con los que va a entrenar, es decir, la adaptación de los datos a un modelo de entrenamiento específico; además de que los datos nunca serán ideales, pues se pueden encontrar datos nulos, datos inconsistentes, valores atípicos, con errores,  entre otros problemas que normalmente se presentan.
+        p.mb-0 Si bien ya se realizó la búsqueda y selección de los datos, aún falta mucho para empezar con la creación de los modelos de #[em Machine Learning], esto debido a que cada algoritmo de clasificación tiene sus propios requerimientos en cuanto a la colección de datos con los que va a entrenar, es decir, la adaptación de los datos a un modelo de entrenamiento específico; además de que los datos nunca serán ideales, pues se pueden encontrar datos nulos, datos inconsistentes, valores atípicos, con errores,  entre otros problemas que normalmente se presentan.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img06.svg' alt="")
 
     p.mb-5(data-aos="fade-right") Entonces:
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="fade-right")
+      .col-xl-4.col-lg-6.col-sm-8.mb-4(data-aos="fade-right")
         .tarjeta.BGIMG01.h-100.px-4.py-5
           p.mb-0 Es cuando entra en juego una de las tareas más importantes en los proyectos de ciencia de datos, constituyendo aproximadamente el 70 % del tiempo del proyecto, y se trata del preprocesamiento de los datos.
-      .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="flip-up")
+      .col-xl-4.col-lg-6.col-sm-8.mb-4(data-aos="flip-up")
         .tarjeta.BGIMG02.h-100.px-4.py-5
           p.text-white.mb-0 Es una labor ardua, en la que el objetivo es realizar la depuración de los datos, de tal manera que estos queden lo más consistentes posibles.
-      .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-xl-4.col-lg-6.col-sm-8.mb-4(data-aos="fade-left")
         .tarjeta.BGIMG03.h-100.px-4.py-5
           p.text-white.mb-0 Al realizar el preprocesamiento, se realiza una limpieza, evitando entradas y salidas de características que no se van a utilizar; también, al mejorar los datos, se mejora el rendimiento del modelo, con mejores resultados.
 
@@ -137,18 +140,18 @@
             h5.text-center.mt-4 Discretización de datos
             p.mb-0 Realizar la conversión de valores categóricos a numéricos, ya que es requerido por algunas técnicas de aprendizaje automático.
 
-    p.mb-5(data-aos="fade-right") En cada una de las tareas que se realizan en el preprocesamiento, pueden surgir una serie de preguntas cla-ves. Conózcalas a continuación:
+    p.mb-5(data-aos="fade-right") En cada una de las tareas que se realizan en el preprocesamiento, pueden surgir una serie de preguntas claves. Conózcalas a continuación:
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta BG04" data-aos="zoom-in")
       div(titulo="¿Qué hacer con los valores faltantes?")
-        p.text-white Para atacar este problema, lo mejor es investigar cuál es la razón del porqué hay ausencias de valores, lo que permitirá realizar un mejor control de la situación. De acuerdo con esto, la acciones que se pueden realizar son:
+        p.text-white Para atacar este problema, lo mejor es investigar cuál es la razón del porqué hay ausencias de valores, lo que permitirá realizar un mejor control de la situación. De acuerdo con esto, las acciones que se pueden realizar son:
         ul.lista-ul--color.text-white.ms-4
           li(style="margin-bottom: 2px")
             i.fas.fa-check-circle(style="color: #8054F8 !important;")
             p.mb-0 #[b.BGP01 Eliminación definitiva:] se quitarían los datos que faltan en la colección de datos.
           li(style="margin-bottom: 2px")
             i.fas.fa-check-circle(style="color: #8054F8 !important;")
-            p.mb-0 #[b.BGP01 Sustituciones con valor fijo:] se realiza un reemplazo de los valores que hacen falta por un valor fijo definido de acuerdo con el análisis del negocio; por ejemplo, colocar un 0 para valores numéricos, o la palabra otro para variables categóricas
+            p.mb-0 #[b.BGP01 Sustituciones con valor fijo:] se realiza un reemplazo de los valores que hacen falta por un valor fijo definido de acuerdo con el análisis del negocio; por ejemplo, colocar un 0 para valores numéricos, o la palabra otro para variables categóricas.
           li(style="margin-bottom: 2px")
             i.fas.fa-check-circle(style="color: #8054F8 !important;")
             p.mb-0 #[b.BGP01 Sustituciones con la media:] para atributos faltantes, puede realizar el cálculo de la media para esa columna y reemplazar los valores vacíos con ese resultado.
@@ -158,7 +161,7 @@
           li(style="margin-bottom: 2px")
             i.fas.fa-check-circle(style="color: #8054F8 !important;")
             p.mb-0 #[b.BGP01 Sustitución de regresión:] se implementa un método de regresión con el que se reemplazan los valores faltantes por los valores con regresión.
-      div(titulo="¿Qué hacer con los valores faltantes?")
+      div(titulo="¿Cómo se normalizan los datos?")
         p.text-white Con la normalización, se escalan los datos numéricos en un intervalo determinado. Dentro de las técnicas para realizar la normalización de los valores más conocidos, se puede encontrar:
         ul.lista-ul--color.text-white.ms-4
           li(style="margin-bottom: 2px")
@@ -170,7 +173,7 @@
           li(style="margin-bottom: 2px")
             i.fas.fa-check-circle(style="color: #8054F8 !important;")
             p.mb-0 #[b.BGP01 Escalado decimal:] escale los datos moviendo la coma decimal del valor del atributo.
-      div(titulo="¿Qué hacer con los valores faltantes?")
+      div(titulo="¿Qué hacer para discretizar?")
         p.text-white Para la discretización de los valores, se puede hacer con la conversión de datos continuos en intervalos o en atributos nominales. Dentro de las estrategias para lograrlo, se puede usar lo siguiente:
         ul.lista-ul--color.text-white.ms-4
           li(style="margin-bottom: 2px")

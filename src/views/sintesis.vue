@@ -36,4 +36,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.banner-interno__titulo__icono i
+    color: $color-sistema-texto
+</style>

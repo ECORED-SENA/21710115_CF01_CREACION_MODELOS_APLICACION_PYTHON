@@ -6,11 +6,11 @@
       .titulo-principal__numero
         span 6
       h1 Crear el modelo
-    
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p Después de la exploración y el preprocesamiento, se continúa con la construcción del modelo, como se puede ver la variable con la que aprenderá el modelo se basa en texto que ya se ha divido en palabras y que se debe empezar a cuantificar para poder pasar la información para que el modelo lo pueda entender. 
-        p.mb-0 Como se ha venido desarrollando todas las unidades se realizará una serie de pasos que permitan en este caso la construcción de un modelo, para conocerlos revise con atención el recurso propuesto: 
+        p Después de la exploración y el preprocesamiento, se continúa con la construcción del modelo, como se puede ver la variable con la que aprenderá el modelo se basa en texto que ya se ha divido en palabras y que se debe empezar a cuantificar para poder pasar la información para que el modelo lo pueda entender.
+        p.mb-0 Como se ha venido desarrollando todas las unidades se realizará una serie de pasos que permitan en este caso la construcción de un modelo, para conocerlos revise con atención el recurso propuesto:
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema6/img01.png' alt="Imagen decorativa")
 
@@ -55,7 +55,7 @@
     separador
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 6.1 Entrenamiento
-    
+
     p.mb-5(data-aos="fade-right") Se puede decir que se tiene la base para empezar a realizar el entrenamiento de los datos, toda vez que ya se sabe cuáles son los datos de entrada y las clases, y ambas se encuentran en valores numéricos tal como se requiere. En el siguiente recurso se dan a conocer algunas recomendaciones importantes para realizar el entrenamiento:
 
     .row.justify-content-center.mb-5
@@ -115,14 +115,14 @@
           .col-auto
             .BGT09.px-4.py-2
               .h5.mb-0 Paso 2
-        p.mx-4(data-aos="fade-right") Lo que sigue es la selección del algoritmo de clasificación, en este caso se utilizará el de Naive Bayes, y Regresión Logística.
+        p.mx-4(data-aos="fade-right") Lo que sigue es la selección del algoritmo de clasificación, en este caso se utilizará el de #[em Naive Bayes], y Regresión Logística.
         p.mx-4(data-aos="fade-right") Se importan las librerías necesarias para poder implementarlas.
         .row.px-4.mb-5
           .col-auto
             .BG12.p-4
               p.t-aw.mb-0 from sklearn.naive_bayes import MultinomialNB
               p.t-aw.mb-0 from sklearn.linear_model import LogisticRegression
-        p.mx-4(data-aos="fade-right") Para utilizar el algoritmo de Naive Bayes, se le asigna la configuración a la variable NB,
+        p.mx-4(data-aos="fade-right") Para utilizar el algoritmo de #[em Naive Bayes], se le asigna la configuración a la variable NB,
         p.mx-4(data-aos="fade-right") #[b.BGP12 NB = MultinomialNB(alpha=0.5)]
         p.mx-4(data-aos="fade-right") Tener en cuenta el siguiente parámetro.
         p.mx-4(data-aos="fade-right") #[b.BGP12 alpha=] parámetro de suavizado de Laplace si se omite por defecto asignaría 1, para nuestro caso se establecerá en 0.5
@@ -137,7 +137,7 @@
           .col-auto
             .BGT09.px-4.py-2
               .h5.mb-0 Paso 3
-        p.mx-4(data-aos="fade-right") Se utilizan los siguientes comandos para realizar el entrenamiento con el algoritmo de Naive Bayes usar los siguientes comandos.
+        p.mx-4(data-aos="fade-right") Se utilizan los siguientes comandos para realizar el entrenamiento con el algoritmo de #[em Naive Bayes] usar los siguientes comandos.
         p.mx-4(data-aos="fade-right") #[b.BGP12 NB.fit(X_train,y_train)]
         p.mx-4(data-aos="fade-right") Para realizar el entrenamiento con el algoritmo de Regresión Logística, de igual manera use el mismo comando, pero con su respectiva configuración almacenada en la variable RL
         p.mx-4.mb-5(data-aos="fade-right") #[b.BGP12 RL.fit(X_train,y_train)]
@@ -170,11 +170,11 @@
               p.text-white.mb-2 Entrenamiento:
               p.text-white.mb-2 NB.fit(X_train,y_train)
               p.t-aw.mb-0 RL.fit(X_train,y_train)
-    
+
     separador
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 6.2 Evaluación
-    
+
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema6/img12.png' alt="Imagen decorativa")
@@ -195,7 +195,7 @@
           .col-auto
             .BGT09.px-4.py-2
               .h5.mb-0 Paso 2
-        p.mx-4(data-aos="fade-right") Realizar la predicción de los datos con el modelo entrenado, primero con Naive Bayes y posteriormente con regresión logística, recordemos que los modelos son NB y RL respectivamente; para realizar la predicción, utilice los datos de prueba y ejecute el siguiente comando.
+        p.mx-4(data-aos="fade-right") Realizar la predicción de los datos con el modelo entrenado, primero con #[em Naive Bayes] y posteriormente con regresión logística, recordemos que los modelos son NB y RL respectivamente; para realizar la predicción, utilice los datos de prueba y ejecute el siguiente comando.
         p.mx-4(data-aos="fade-right") #[b.BGP12 y_pred_NB = NB.predict(X_test)]
         p.mx-4(data-aos="fade-right") Los resultados se almacenan en y_pred_NB, y para el modelo de regresión logística realice el mismo procedimiento, pero almacenando en una variable diferente.
         p.mx-4.mb-5(data-aos="fade-right") #[b.BGP12 y_pred_RL = RL.predict(X_test)]
@@ -204,14 +204,14 @@
             .BGT09.px-4.py-2
               .h5.mb-0 Paso 3
         p.mx-4(data-aos="fade-right") Las salidas de la predicción del modelo entrenado se deben comparar con las salidas correctas para ese conjunto de datos, y de esta manera saber el porcentaje de aciertos para cada uno de los modelos. La comparativa se realiza implementando las siguientes líneas de código.
-        p.mx-4(data-aos="fade-right") Para el modelo de Naive Bayes, utilice el siguiente comando:
+        p.mx-4(data-aos="fade-right") Para el modelo de #[em Naive Bayes], utilice el siguiente comando:
         p.mx-4(data-aos="fade-right") #[b.BGP12 metrics.accuracy_score(y_test, y_pred_NB)]
         p.mx-4.mb-5(data-aos="fade-right") Y el resultado que se obtiene se aprecia en la siguiente imagen.
         .row.justify-content-center.mb-5
           .col-lg-8.px-lg-0.px-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema6/img13.jpg' alt="Porcentaje de aciertos para el modelo utilizando Naive Bayes")
-        
+
         .row.mb-4(data-aos="fade-right")
           .col-auto
             .BGT09.px-4.py-2
@@ -221,15 +221,15 @@
           .col-lg-8.px-lg-0.px-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema6/img14.jpg' alt="Captura de pantalla en el que muestra el mdelo de regresión logística.")
-        p.mx-4.mb-5(data-aos="fade-right") Como se indicó en las recomendaciones, se dejaron los datos para las pruebas y efectivamente sirvieron para validar la efectividad del modelo, el resultado arrojado es del 98 % donde se utilizó el algoritmo de clasificación Naive Bayes, mientras que con el modelo donde se implementó regresión logística se obtuvo un porcentaje de acierto del 95 %.
+        p.mx-4.mb-5(data-aos="fade-right") Como se indicó en las recomendaciones, se dejaron los datos para las pruebas y efectivamente sirvieron para validar la efectividad del modelo, el resultado arrojado es del 98 % donde se utilizó el algoritmo de clasificación #[em Naive Bayes], mientras que con el modelo donde se implementó regresión logística se obtuvo un porcentaje de acierto del 95 %.
 
     separador
     #t_6_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 6.3 Predicciones
-    
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.order-lg-1.order-2(data-aos="fade-right")
-        p Con los modelos evaluados se procede a realizar las predicciones, esta vez con entradas completamente nuevas. Con el aprendizaje realizado el modelo debería estar en la capacidad de clasificar los datos en correos electrónicos normales o maliciosos. 
+        p Con los modelos evaluados se procede a realizar las predicciones, esta vez con entradas completamente nuevas. Con el aprendizaje realizado el modelo debería estar en la capacidad de clasificar los datos en correos electrónicos normales o maliciosos.
         p Es importante aclarar que los nuevos datos que le pasen al modelo deben estar relacionados con la temática bajo la cual este modelo fue entrenado, ósea con mensajes de correos electrónicos.
         p Para realizar las predicciones se tomará el modelo con mayor efectividad que arrojó la evaluación, que sería el que se entrenó con el algoritmo de clasificación #[em Naive] Bayes con un porcentaje del 98 por ciento.
         p.mb-0 Se establecerán múltiples entradas y para este fin se deben seguir los pasos expuestos en el recurso educativo:
@@ -330,7 +330,7 @@
     separador
     #t_6_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 6.4 Evaluar el modelo y análisis de errores
-    
+
     .row.justify-content-center.mb-5
       .col-lg-2.col-4.mb-lg-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema6/img18.svg' alt="Imagen decorativa")
@@ -350,7 +350,7 @@
             .BG12.p-4
               p.t-aw.mb-0 from sklearn.metrics import confusion_matrix
               p.t-aw.mb-0 #[span.t-ac import] seaborn #[span.t-ac as] sns
-          
+
         .row.mb-4(data-aos="fade-right")
           .col-auto
             .BGT09.px-4.py-2
@@ -362,7 +362,7 @@
             .BG12.p-4
               p.t-aw.mb-0 y_pred_NB = NB.predict(X_test)
               p.t-aw.mb-0 y_correctas_NB = y_test
-        p.mx-4.mb-5(data-aos="fade-right") Como se aprecia, la primera línea corresponde a las predicciones con el modelo entrenado usando el algoritmo Naive Bayes, pasándole como entradas los datos de prueba que fueron separados, y la segunda línea simplemente le reasignamos a una nueva variable los valores de salida correcto de los datos de prueba.
+        p.mx-4.mb-5(data-aos="fade-right") Como se aprecia, la primera línea corresponde a las predicciones con el modelo entrenado usando el algoritmo #[em Naive Bayes], pasándole como entradas los datos de prueba que fueron separados, y la segunda línea simplemente le reasignamos a una nueva variable los valores de salida correcto de los datos de prueba.
 
         .row.mb-4(data-aos="fade-right")
           .col-auto

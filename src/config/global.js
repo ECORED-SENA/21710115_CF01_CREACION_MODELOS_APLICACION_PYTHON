@@ -206,22 +206,22 @@ export default {
         'suposición hecha a partir de unos datos, que sirve de base para iniciar una investigación o una argumentación.',
     },
     {
-      termino: 'Media armónica:',
+      termino: 'Media armónica',
       significado:
         'es una medida estadística recíproca a la media aritmética, que es la suma de un conjunto de valores entre el número de observaciones.',
     },
     {
-      termino: 'Algoritmos de clasificación:',
+      termino: 'Algoritmos de clasificación',
       significado:
         'se utilizan cuando el resultado deseado es una etiqueta discreta.',
     },
     {
-      termino: 'Entrenamiento:',
+      termino: 'Entrenamiento',
       significado:
         'es una forma de la Inteligencia Artificial que permite a un sistema aprender de los datos, en lugar de aprender mediante la programación explícita.',
     },
     {
-      termino: 'Predicción:',
+      termino: 'Predicción',
       significado:
         'los sistemas de predicción son técnicas que construyen y estudian nuevas previsiones a través de una rama de la Inteligencia Artificial denominada aprendizaje automático <em>(Machine Learning)</em>.',
     },
@@ -245,7 +245,8 @@ export default {
     {
       referencia:
         'González, L. (2020). <em>¿Cuál es la diferencia entre Regresión Lineal y Regresión Logística?</em> Aprende IA.',
-      link: '',
+      link:
+        'https://aprendeia.com/diferencia-entre-regresion-lineal-y-regresion-logistica-machine-learning/',
     },
     {
       referencia:
@@ -336,8 +337,20 @@ export default {
             'Regional Santander – Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e Ilustración',
+          centro:
+            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya ',
+          cargo: 'Locución',
           centro:
             'Regional Santander – Centro Industrial del Diseño y la Manufactura',
         },

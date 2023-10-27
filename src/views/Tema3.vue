@@ -19,13 +19,13 @@
         .row.justify-content-center.mb-5
           .col-lg-11
             .titulo-sexto.color-acento-contenido(data-aos="fade-left")
-              h5 Figura 1.
+              h5 Figura 6.
               span Representación matriz de confusión
             .tabla-a.color-acento-contenido
               table(data-aos="zoom-in"  alt="Texto alternativo tabla")
                 tbody(style="border-color: transparent")
                   tr(data-aos="fade-right")
-                    th(style="background-color: #F7F4FF; border: 1px solid #8054F8; font-size: 18px;" colspan="4") Ventajas
+                    th(style="background-color: #F7F4FF; border: 1px solid #8054F8; font-size: 18px;" colspan="4") Resultado de la predicción
                   tr(data-aos="fade-right")
                     td(style="width: 20%;border: 1px solid #8054F8" rowspan="3") Valor actual
                     td(style="width: 20%;border: 1px solid #8054F8")
@@ -81,7 +81,7 @@
         .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="fade-left")
           .tarjeta.BGIMG02.h-100.px-4.py-5
             .h4.text-white Error de TIPO II
-            p.text-white.mb-0 •	Este error equivale a los falsos negativos (FN), consiste en aceptar una hipótesis falsa nula.
+            p.text-white.mb-0 Este error equivale a los falsos negativos (FN), consiste en aceptar una hipótesis falsa nula.
 
     p.mb-5(data-aos="fade-right") Conozca cómo se pueden evaluar este tipo de errores:
 

@@ -43,17 +43,17 @@
                 p.mt-4 #[b.BGP01 Intencionalidad]
                 p.mb-0 Su principal objetivo es la creación de sistemas que estén en la capacidad de aprender, de manera autónoma, a partir de una colección de datos.
               div
-                p.mt-4 #[b.BGP01 Entrenamiento]
-                p.mb-0 Para la construcción de dichos modelos, se requiere, como base fundamental, una colección de datos desde la cual el algoritmo seleccionado empieza su proceso de entrenamiento.
-              div
-                p.mt-4 #[b.BGP01 Algoritmos de clasificación]
-                p.mb-0 En este componente formativo, para la creación de los modelos, se utilizarán específicamente algoritmos que denominamos de clasificación, que están dentro de la categoría de aprendizaje supervisado.
-              div
                 p.mt-4 #[b.BGP01 Análisis de datos]
                 p.mb-0 Lo anterior, permite tener la percepción y análisis de un gran volumen de datos, lo que facilita muchos procesos del ser humano.
               div
+                p.mt-4 #[b.BGP01 Entrenamiento]
+                p.mb-0 Para la construcción de dichos modelos, se requiere, como base fundamental, una colección de datos desde la cual el algoritmo seleccionado empieza su proceso de entrenamiento.
+              div
                 p.mt-4 #[b.BGP01 Predicciones]
                 p.mb-0 Posteriormente, se realizan las predicciones de acuerdo con una variable objetivo.
+              div
+                p.mt-4 #[b.BGP01 Algoritmos de clasificación]
+                p.mb-0 En este componente formativo, para la creación de los modelos, se utilizarán específicamente algoritmos que denominamos de clasificación, que están dentro de la categoría de aprendizaje supervisado.
 
     p.mb-5(data-aos="fade-right") En el aprendizaje supervisado, se le indica a la máquina información histórica para que realice el entrenamiento y aprenda de esa información; una vez ha aprendido, se estaría en la capacidad de realizar el reconocimiento y predecir sin necesidad de saber la respuesta.
 
@@ -97,7 +97,8 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/J9w6KquPKbE?si=hw2Mzyl2xntwJupv" title="¿Qué es Machine Learning?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. ¿Qué es Machine Learning?
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-1.col-3.mb-lg-0.mb-4(data-aos="fade-right")
@@ -112,7 +113,7 @@
         .row.justify-content-center
           .col-lg-10.order-lg-1.order-2
             p De acuerdo con cada problema, se debe realizar una muy buena investigación y obtención de datos, garantizando que sean de muy buena calidad y cantidad, pues esto determinará su eficiencia.
-            p.mb-0 Dicha información puede venir de bases de datos privadas o públicas, las cuales proveen información que puede ser descargada en formato CSV o compartida mediante API con estructuras tipo JSON; también puede hacer uso de la técnica #[em Web Scraping], que consiste en conseguir información publicada en páginas web mediante un software especializado que se va almacenando en tablas, de manera online o local.
+            p.mb-0 Dicha información puede venir de bases de datos privadas o públicas, las cuales proveen información que puede ser descargada en formato CSV o compartida mediante API con estructuras tipo JSON; también puede hacer uso de la técnica #[em Web Scraping], que consiste en conseguir información publicada en páginas web mediante un #[em software] especializado que se va almacenando en tablas, de manera #[em online] o local.
           .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema1/img08.svg' alt="")
       .tarjeta.BG05.p-4(titulo="Preparar los datos")
@@ -130,7 +131,7 @@
       .tarjeta.BG05.p-4(titulo="Entrenando la máquina")
         .row.justify-content-center
           .col-lg-10.order-lg-1.order-2
-            p.mb-0 Luego de la selección del modelo, se realiza el entrenamiento, en el que se debe ir visualizando mejoras. Es importante inicializar los pesos del modelo aleatoriamente, entendiendo por peso los valores que afectan la relación entre la entrada y la salida; estos se ajustan automáticamente en la medida en que se realicen más entrenamientos; se deben observar todas las respuestas obtenidas y proceder con las correcciones pertinentes.
+            p.mb-0 Luego de seleccionar el modelo, se realiza el entrenamiento. En este proceso, se deben visualizar mejoras. Es importante inicializar los pesos del modelo aleatoriamente, ya que estos afectan la relación entre la entrada y la salida. Los pesos se ajustan automáticamente a medida que se realizan más entrenamientos. Se deben observar todas las respuestas obtenidas y proceder con las correcciones necesarias.
           .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema1/img11.svg' alt="")
       .tarjeta.BG05.p-4(titulo="Evaluación")
@@ -159,7 +160,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2
-        p(data-aos="fade-right") Este tipo de algoritmos es utilizado en problemas cuyos resultados estén basados en la obtención de etiquetas discretas, lo que quiere decir que las respuestas a una pregunta o problema están alojadas dentro de una colección de datos finita; por ejemplo, en la detección de correo malicioso, se puede detectar si es spam o no, o en la calificación de servicio de un restaurante se puede determinar si es bueno, malo o excelente; en otras palabras, el resultado está enmarcado en un rango de salidas definido.
+        p(data-aos="fade-right") Este tipo de algoritmos es utilizado en problemas cuyos resultados estén basados en la obtención de etiquetas discretas, lo que quiere decir que las respuestas a una pregunta o problema están alojadas dentro de una colección de datos finita; por ejemplo, en la detección de correo malicioso, se puede detectar si es #[em spam] o no, o en la calificación de servicio de un restaurante se puede determinar si es bueno, malo o excelente; en otras palabras, el resultado está enmarcado en un rango de salidas definido.
         .tarjeta.BG01.p-4(data-aos="fade-right")
           .row.justify-content-center
             .col-lg-2.col-4.mb-lg-0.mb-4
@@ -181,7 +182,7 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img17.svg' alt="")
         .col-lg-8(data-aos="fade-left")
-          p.mb-0 En tal caso, se denominan de #[b.BGP01 clasificación multicategoría,] y son usados en la segmentación de clientes, en la categorización de imágenes y audios
+          p.mb-0 En tal caso, se denominan de #[b.BGP01 clasificación multicategoría,] y son usados en la segmentación de clientes, en la categorización de imágenes y audios.
       .row.justify-content-center.align-items-center
         .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
           p.mb-0 Otro uso que se les puede dar es el de analizar textos que ayuden a establecer cuál es el sentimiento de una persona.
@@ -206,7 +207,7 @@
     .tarjeta.BGIMG04.p-4.mb-5
       .row.justify-content-center
         .col-lg-5.order-lg-1.order-2(data-aos="fade-right")
-          p.mb-0 La siguiente gráfica, muestra cómo se clasifican los datos. Suponga que el modelo se entrenó con mariposas, colibríes y colores, estos son clasificados de acuerdo con sus características. Cuando el modelo se enfrente a nuevos datos con caracteristicas similares al modelo entrenado, pero que no conoce este, estaría en la capacidad de identificarlos asociándolos a una clase, ya sea por el color o por la figura de la imagen.
+          p.mb-0 La siguiente gráfica, muestra cómo se clasifican los datos. Suponga que el modelo se entrenó con mariposas, colibríes y colores, estos son clasificados de acuerdo con sus características. Cuando el modelo se enfrente a nuevos datos con características similares al modelo entrenado, pero que no conoce este, estaría en la capacidad de identificarlos asociándolos a una clase, ya sea por el color o por la figura de la imagen.
         .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           .titulo-sexto.color-acento-contenido
             h5 Figura 1.
@@ -233,7 +234,7 @@
               p.mb-0 Bosques aleatorios
           .col-lg-4.col.sm-6.mb-lg-0.mb-4
             .tarjeta.BG01.p-3
-              p.mb-0 Naive Bayes
+              p.mb-0 #[em Naive Bayes]
           .col-lg-4.col.sm-6
             .tarjeta.BG01.p-3
               p.mb-0 Otros algoritmos
@@ -244,13 +245,14 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2
-        p(data-aos="fade-right") #[em K-nearest-neighbor] es un algoritmo que se basa en el aprendizaje supervisado utilizado para la clasificación de muestras nuevas para valores discretos o para realizar predicciones en valores continuos; es un algoritmo muy sencillo, lo que lo hace ideal cuando se está comenzando en el mundo del #[em Machine Learning] y, específicamente, en la subdivisión de aprendizaje supervisado. Esencialmente, se utilizan para realizar la clasificación de los datos encontrando los puntos o características más parecidas; estas características pueden identificarse ya que han sido aprendidas en el proceso de entrenamiento.
+        p(data-aos="fade-right") #[em K-nearest-neighbor] es un algoritmo que se basa en el aprendizaje supervisado, el cual, se utiliza para clasificar muestras nuevas de valores discretos o realizar predicciones en valores continuos. Es un algoritmo fácil de entender, lo que lo hace ideal para principiantes en el mundo del #[em Machine Learning].
+        p Este algoritmo funciona comparando los datos nuevos con los datos de entrenamiento, encontrando, los puntos o características más parecidas a los datos nuevos. De esta forma, se identifica cuáles han sido aprendidas durante el proceso de entrenamiento.
         .tarjeta.BG05.p-4(data-aos="fade-right")
           .row.justify-content-center
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img25.svg' alt="")
             .col-lg-10
-              p.mb-0 En aprendizaje no supervisado, se encuentra un algoritmo que se denomina #[em k-means], el cual se debe diferenciar, ya que, para este, la k tiene que ver con el número de grupos que se desean clasificar, mientras que en el algoritmo #[em Knn (K-nearest neigbor)], la k tiene que ver con el número de puntos vecinos que se deben tener en cuenta, por su cercanía, para realizar la clasificación en n grupos que sean conocidos previamente, pues este se trata de un algoritmo basado en la supervisión.
+              p.mb-0 En aprendizaje no supervisado, se encuentra un algoritmo que se denomina #[em k-means], el cual se debe diferenciar, ya que, para este, la #[em k] tiene que ver con el número de grupos que se desean clasificar, mientras que en el algoritmo #[em Knn (K-nearest neigbor)], la #[em k] tiene que ver con el número de puntos vecinos que se deben tener en cuenta, por su cercanía, para realizar la clasificación en #[em n] grupos que sean conocidos previamente, pues este se trata de un algoritmo basado en la supervisión.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img24.png' alt="")
 
@@ -277,9 +279,9 @@
           div(titulo="2. Situación")
             p.text-white.mb-0 Para realizar el modelo, se divide la colección de datos en dos partes y se deben seleccionar de manera aleatoria; la parte del entrenamiento con el 80 % de los datos y se deja otro 20 % con el resto de los datos para hacer las pruebas que ayudarán a validar el modelo.
           div(titulo="3. Acción")
-            p.text-white.mb-0 Se debe establecer un valor para k, preferiblemente que sea pequeño; luego se le pasa al algoritmo una instancia de la colección que se ha separado para pruebas, para que sea procesado. Tras realizar este proceso, el algoritmo se encarga de seleccionar las k instancias de la colección de datos de entrenamiento que más se parezcan o sean más cercanas, dicha cercanía se establece dependiendo de la métrica de similitud que se utilice; la asignación se realiza a la instancia de la clase con mayor frecuencia dentro de las k instancias que han sido seleccionadas como más cercanas.
+            p.text-white.mb-0 Se debe establecer un valor para #[em k], preferiblemente que sea pequeño; luego se le pasa al algoritmo una instancia de la colección que se ha separado para pruebas, para que sea procesado. Tras realizar este proceso, el algoritmo se encarga de seleccionar las #[em k] instancias de la colección de datos de entrenamiento que más se parezcan o sean más cercanas, dicha cercanía se establece dependiendo de la métrica de similitud que se utilice; la asignación se realiza a la instancia de la clase con mayor frecuencia dentro de las #[em k] instancias que han sido seleccionadas como más cercanas.
 
-    p(data-aos="fade-right") El algoritmo K-Nearest-Neighbor es un algoritmo muy simple, pero con el que se obtienen buenos resultados.
+    p(data-aos="fade-right") El algoritmo #[em K-Nearest-Neighbor] es un algoritmo muy simple, pero con el que se obtienen buenos resultados.
     p(data-aos="fade-right") Para tener en cuenta:
     .BGM07.p-md-5.p-4.mb-5
       .BG01.mb-5
@@ -297,7 +299,7 @@
                 span También se debe tener en cuenta la métrica de similitud que se vaya a implementar, ya que esto determina fuertemente la relación de cercanía que se irá obteniendo en la construcción del modelo.
               li(style="margin-bottom: 2px" data-aos="fade-right")
                 i.fas.fa-check-circle(style="color: #8054F8;")
-                span Para establecer los puntos que sean similares y con mayor cercanía, se debe encontrar la distancia entre esos puntos .
+                span Para establecer los puntos que sean similares y con mayor cercanía, se debe encontrar la distancia entre esos puntos.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
             img(src='@/assets/curso/tema1/img27.jpg' alt="")
 
@@ -320,13 +322,13 @@
         .tarjeta.BG08.h-100.p-4
           .h4.text-white.text-center.mb-0 Calcular las distancias
 
-    p.mb-5(data-aos="fade-right") Hasta este punto, ya se sabe cómo funciona el algoritmo K-nearest-neighbor, y con qué parámetro fundamental es la determinación de k. No obstante, tenga presente que:
+    p.mb-5(data-aos="fade-right") Hasta este punto, ya se sabe cómo funciona el algoritmo #[em K-nearest-neighbor], y con qué parámetro fundamental es la determinación de #[em k]. No obstante, tenga presente que:
 
     .row.justify-content-center.mb-5
       .col-lg-9.order-lg-1.order-2(data-aos="fade-right")
         TabsA.color-acento-botones
           .tarjeta.BG05.p-4(titulo="Número de vecinos")
-            p.mb-0 El número de vecinos se debe elegir cuando se está realizando la construcción del modelo; se puede decir que k es una variable o parámetro de control en la predicción.
+            p.mb-0 El número de vecinos se debe elegir cuando se está realizando la construcción del modelo; se puede decir que #[em k] es una variable o parámetro de control en la predicción.
           .tarjeta.BG05.p-4(titulo="Colecciones de datos y sus exigencias propias")
             p.mb-0 Pero no es un valor que esté definido fácilmente, dependiendo de alguna problemática específica o una colección de datos puntual; cada colección de datos tendrá sus propias exigencias.
           .tarjeta.BG05.p-4(titulo="Sesgos")
@@ -342,7 +344,7 @@
       .col-lg-9(data-aos="fade-left")
         TabsA.color-acento-botones
           .tarjeta.BG05.p-4(titulo="Modelos y valores")
-            p.mb-0 La recomendación es elegir números impares para las clases en las que las cantidades sean par y, definitivamente, realizar varios modelos en los que se apliquen diferentes valores para k e ir determinando con cuál se obtienen mejores resultados.
+            p.mb-0 La recomendación es elegir números impares para las clases en las que las cantidades sean par y, definitivamente, realizar varios modelos en los que se apliquen diferentes valores para #[em k] e ir determinando con cuál se obtienen mejores resultados.
           .tarjeta.BG05.p-4(titulo="Su debilidad")
             p.mb-0 La debilidad de este algoritmo es su lentitud cuando realiza el proceso de clasificación, debido a que el objetivo principal de este algoritmo no es la búsqueda de un modelo óptimo.
           .tarjeta.BG05.p-4(titulo="Su estrategia")
@@ -378,7 +380,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p Esta es una técnica muy utilizada en el mundo del #[em Machine Learning], la estrategia que sigue este algoritmo consiste en crear un modelo capaz de predecir el valor o clase de una observación, partiendo de una serie de reglas obtenidas de datos históricos. Son muchos los profesionales que utilizan esta técnica para generar estra-tegias comerciales de negocio, o en el área de la salud, en modelos que ayudan con los diagnósticos médicos.
+        p Esta es una técnica muy utilizada en el mundo del #[em Machine Learning], la estrategia que sigue este algoritmo consiste en crear un modelo capaz de predecir el valor o clase de una observación, partiendo de una serie de reglas obtenidas de datos históricos. Son muchos los profesionales que utilizan esta técnica para generar estrategias comerciales de negocio, o en el área de la salud, en modelos que ayudan con los diagnósticos médicos.
         p.mb-0  A continuación, se muestra la estructura general básica de un árbol de decisión. Detállela con atención:
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img35.svg' alt="")
@@ -429,7 +431,7 @@
           h5 Figura 2.
           span Ejemplo árboles de decisión
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img38.svg' alt="")
+          img(src='@/assets/curso/tema1/img38.svg' alt="Gráfica de un árbol de decisión con los elementos del ejemplo propuesto: la entidad bancaria realiza modelo de decisiones para aprobar, o no, préstamos a sus clientes.")
 
     p.mb-5(data-aos="fade-right") ¿Cuándo terminar las ramificaciones? A continuación, se dan algunas opciones muy prácticas y de acertado uso:
 
@@ -445,7 +447,7 @@
           .col-lg-4.col-sm-6.col-10.mb-4
             .tarjeta--boton.color-acento-botones.h-100.p-4
               .h4.text-center Opción 2
-              p.mb-0 Cuando al separar por una variable en la iteración n, no se genera un grupo más uniforme que el que se tiene en la iteración n-1.
+              p.mb-0 Cuando al separar por una variable en la iteración #[em n], no se genera un grupo más uniforme que el que se tiene en la iteración #[em n-1].
           .col-lg-4.col-sm-6.col-10.mb-4
             .tarjeta--boton.color-acento-botones.h-100.p-4
               .h4.text-center Opción 3
@@ -471,7 +473,7 @@
           .h5.text-center.text-white.mb-3 Pruning (poda del árbol)
           p.text-white.mb-0 Consiste en realizar una revisión a los datos y descartar nodos que no aportan información. Realmente, este proceso es importante para la precisión de las predicciones, pues permite un equilibrio en lo simple de las decisiones que deba tomar el árbol.
 
-    p.mb-5(data-aos="fade-right") Para conocer las ventajas y las desventajas de la técnica de árbol de decisión, revise el esquema que, a conti-nuación, se muestra:
+    p.mb-5(data-aos="fade-right") Para conocer las ventajas y las desventajas de la técnica de árbol de decisión, revise el esquema que, a continuación, se muestra:
 
     .BGIMG05.p-4.mb-5
       .row.justify-content-center
@@ -511,12 +513,15 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6
+        .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+          h5 Figura 4.
+          span Ejemplo Dataset bosques aleatorios
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img41.svg' alt="Imagen que muestra un ejemplo de bosques aleatorios, mediante tres árboles de decisión, con sus respectivas ramificaciones, especificando cuáles se determinaron por mayoría o por promedio, llegando a un resultado final.")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2
-        p(data-aos="fade-right") La estrategia de los bosques aleatorios se basa en la combinación de una gran cantidad de árboles de decisión, en la que se realiza un entrenamiento de cada uno de esos árboles de decisión para obtener una muestra dife-rente de las observaciones.
+        p(data-aos="fade-right") La estrategia de los bosques aleatorios se basa en la combinación de una gran cantidad de árboles de decisión, en la que se realiza un entrenamiento de cada uno de esos árboles de decisión para obtener una muestra diferente de las observaciones.
         p(data-aos="fade-right") Los siguientes, son algunos aspectos importantes sobre los bosques aleatorios, que se deben tener en cuenta:
         .tarjeta.BG05.p-4
           ul.lista-ul--color.ms-4
@@ -525,7 +530,7 @@
               span Para obtener las predicciones de un algoritmo de bosque aleatorio, se toman todos los resultados de los árboles de decisión y se promedian las predicciones individuales de cada uno de ellos.
             li(style="margin-bottom: 2px" data-aos="fade-right")
               i.fas.fa-check-circle(style="color: #8054F8;")
-              span Una de las principales desventajas de los árboles de decisión es el sobreajuste, u overfit, con los datos, mediante el cual se realiza el entrenamiento.
+              span Una de las principales desventajas de los árboles de decisión es el sobreajuste (#[em overfit]), con los datos, mediante el cual se realiza el entrenamiento.
             li(style="margin-bottom: 2px" data-aos="fade-right")
               i.fas.fa-check-circle(style="color: #8054F8;")
               span El bosque aleatorio resulta siendo de gran ayuda, pues permite la disminución de ese problema, ya que promedia cada resultado obtenido por la predicción de cada árbol.
@@ -546,10 +551,10 @@
           p.mb-0 Cuando vemos diversos productos al visitar una página de comercio electrónico.
       .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="flip-up")
         .tarjeta.BGIMG02.h-100.px-4.py-5
-          p.text-white.mb-0 En el área de la salud, se puede implementar para la identificación de las enfermedades de pacien-tes, tomando como base el análi-sis del historial médico.
+          p.text-white.mb-0 En el área de la salud, se puede implementar para la identificación de las enfermedades de pacientes, tomando como base el análisis del historial médico.
       .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta.BGIMG03.h-100.px-4.py-5
-          p.text-white.mb-0 En las entidades financieras, pue-de ser utilizada para determinar con facilidad si un cliente es frau-dulento o legítimo.
+          p.text-white.mb-0 En las entidades financieras, puede ser utilizada para determinar con facilidad si un cliente es fraudulento o legítimo.
 
     p.mb-5(data-aos="fade-right") Para implementar este tipo de algoritmo, se deben contemplar algunos pasos, como los que se muestran a continuación:
 
@@ -573,7 +578,7 @@
 
     separador
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.6 Naive Bayes
+      h2 1.6 #[em Naive Bayes]
 
     p.mb-5(data-aos="fade-right") Este algoritmo se basa en el teorema de Bayes, también conocido como el teorema de la probabilidad condicionada, es un clasificador muy útil y ampliamente usado, por su sencilla implementación y rapidez. Consiste en una técnica para clasificación y predicciones supervisadas, mediante la cual se diseña un modelo para predecir la probabilidad de los posibles resultados.
 
@@ -589,7 +594,8 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/BfgKd2sDWto?si=7I2kXuMS2LL1tauS" title="Funcionamiento de Naive Bayes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Funcionamiento de #[em Naive Bayes]
 
     separador
     #t_1_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -604,8 +610,8 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
-        p Los SVM, por sus siglas en inglés, generan una muy alta precisión comparándolos con otros algoritmos de cla-sificación, como lo pueden ser los árboles de decisión o el de regresión logística; su estrategia se basa en su kernel, que permite manejar espacios de entradas que son no lineales; este algoritmo es utilizado en una gran cantidad de aplicaciones, como, por ejemplo, la detección de intrusos, clasificar el correo electrónico, páginas web, artículos de noticias, la detección de rostros, entre otros.
-        p.mb-0 Este algoritmo separa las diferentes clases, gracias a que construye un hiperplano en un espacio multidimen-sional óptimo e iterativo que es utilizado para minimizar los errores; el objetivo principal de los SVM es buscar el hiperplano marginal que mejor separe la colección de los datos en clases.
+        p Los SVM, por sus siglas en inglés, generan una muy alta precisión comparándolos con otros algoritmos de clasificación, como lo pueden ser los árboles de decisión o el de regresión logística; su estrategia se basa en su Kernel, que permite manejar espacios de entradas que son no lineales; este algoritmo es utilizado en una gran cantidad de aplicaciones, como, por ejemplo, la detección de intrusos, clasificar el correo electrónico, páginas web, artículos de noticias, la detección de rostros, entre otros.
+        p.mb-0 Este algoritmo separa las diferentes clases, gracias a que construye un hiperplano en un espacio multidimensional óptimo e iterativo que es utilizado para minimizar los errores; el objetivo principal de los SVM es buscar el hiperplano marginal que mejor separe la colección de los datos en clases.
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img44.png' alt="")
 
@@ -640,7 +646,7 @@
                 td(style="border: 1px solid #8054F8") Buena precisión.
                 td(style="border: 1px solid #8054F8") No se recomienda para grandes colecciones de datos.
               tr(data-aos="fade-right")
-                td(style="border: 1px solid #8054F8") Predicciones rápidas con relación al algoritmo de Naive Bayes.
+                td(style="border: 1px solid #8054F8") Predicciones rápidas con relación al algoritmo de #[em Naive Bayes].
                 td(style="border: 1px solid #8054F8") Es sensible con el tipo de núcleo que se utilice.
               tr(data-aos="fade-right")
                 td(style="border: 1px solid #8054F8") Utiliza menos recursos computacionales.
@@ -656,9 +662,9 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2
-        p(data-aos="fade-right") También se conocen como métodos de conjunto; sus estrategias se basan en una combinación de múltiples algoritmos de aprendizaje con el objetivo de buscar un mejor rendimiento predictivo, que los algoritmos utiliza-dos solos.
+        p(data-aos="fade-right") También se conocen como métodos de conjunto; sus estrategias se basan en una combinación de múltiples algoritmos de aprendizaje con el objetivo de buscar un mejor rendimiento predictivo, que los algoritmos utilizados solos.
         .tarjeta.BG09.p-4(data-aos="fade-right")
-          p.mb-0 El uso de esta técnica aumenta los recursos computacionales, ya que estos supuestos se analizan simultánea-mente y una manera de mitigar estos costos computacionales es usar algoritmos rápidos, como los árboles de decisión.
+          p.mb-0 El uso de esta técnica aumenta los recursos computacionales, ya que estos supuestos se analizan simultáneamente y una manera de mitigar estos costos computacionales es usar algoritmos rápidos, como los árboles de decisión.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img46.svg' alt="")
 
@@ -669,7 +675,7 @@
         img(src='@/assets/curso/tema1/img47.svg' alt="")
       .col-lg-9(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta BG04")
-          div(titulo="Agregación Bootstrap")
+          div(titulo="Agregación <em>Bootstrap</em>")
             p.text-white La idea es simple, si se tienen muchas muestras de entrenamiento, se puede usar cada una de ellas para entrenar un modelo, que luego se usará para hacer predicciones. De esta forma, se tendrán tantas predicciones como modelos y, por tanto, muestras de entrenamiento. El proceso de promediar todas las predicciones tiene dos ventajas importantes: simplifica la solución y reduce en gran medida la varianza.
             .row.align-items-center
               .col-lg-6.order-lg-1.order-2
