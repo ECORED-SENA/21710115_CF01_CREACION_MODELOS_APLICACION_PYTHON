@@ -95,22 +95,22 @@
         ul.lista-ul--color.ms-4
           li(style="margin-bottom: 2px" data-aos="fade-left")
             i.fas.fa-check-circle(style="color: #8054F8;")
-            | Determinar el número de registros.
+            span Determinar el número de registros.
           li(style="margin-bottom: 2px" data-aos="fade-left")
             i.fas.fa-check-circle(style="color: #8054F8;")
-            | Establecer las características o atributos de los datos.
+            span Establecer las características o atributos de los datos.
           li(style="margin-bottom: 2px" data-aos="fade-left")
             i.fas.fa-check-circle(style="color: #8054F8;")
-            | Determinar cuáles de los atributos corresponden a valores categóricos, numéricos o nominales.
+            span Determinar cuáles de los atributos corresponden a valores categóricos, numéricos o nominales.
           li(style="margin-bottom: 2px" data-aos="fade-left")
             i.fas.fa-check-circle(style="color: #8054F8;")
-            | Contar y ubicar los valores faltantes.
+            span Contar y ubicar los valores faltantes.
           li(style="margin-bottom: 2px" data-aos="fade-left")
             i.fas.fa-check-circle(style="color: #8054F8;")
-            | Establecer si existen formatos incorrectos.
+            span Establecer si existen formatos incorrectos.
           li(style="margin-bottom: 2px" data-aos="fade-left")
             i.fas.fa-check-circle(style="color: #8054F8;")
-            | Análisis de datos atípicos.
+            span Análisis de datos atípicos.
 
     p.mb-5(data-aos="fade-right") Luego de realizar la exploración de los datos, se continúa con el preprocesamiento de datos, y estas son las actividades que normalmente se realizan:
 

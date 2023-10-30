@@ -83,13 +83,13 @@
     p.text-center.mb-5(data-aos="fade-left") De acuerdo con lo explicado anteriormente, se puede decir que:
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="fade-right")
+      .col-xl-4.col-lg-6.col-sm-8.mb-4(data-aos="fade-right")
         .tarjeta.BGIMG01.h-100.px-4.py-5
           p.mb-0 Un modelo de #[em Machine Learning] es el resultado que se obtiene cuando se realiza el entrenamiento a un algoritmo con datos.
-      .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="flip-up")
+      .col-xl-4.col-lg-6.col-sm-8.mb-4(data-aos="flip-up")
         .tarjeta.BGIMG02.h-100.px-4.py-5
           p.text-white.mb-0 Después de realizar el entrenamiento, al indicarle un modelo con una entrada, también se le proporciona una salida.
-      .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-xl-4.col-lg-6.col-sm-8.mb-4(data-aos="fade-left")
         .tarjeta.BGIMG03.h-100.px-4.py-5
           p.text-white.mb-0 Por ejemplo, cuando se usa un algoritmo predictivo, es decir, aquel que permite aprender de un conjunto de datos y que, al enfrentarlo a nuevos datos, podría determinar o predecir de qué se tratan, se creará un modelo predictivo.
 
@@ -257,13 +257,13 @@
         img(src='@/assets/curso/tema1/img24.png' alt="")
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="fade-right")
+      .col-xxl-4.col-lg-6.col-sm-8.mb-4(data-aos="fade-right")
         .tarjeta.BGIMG01.h-100.px-4.py-5
           p.mb-0 La técnica #[em K-nearest-neighbor] intenta predecir realizando una clasificación del dato tomando como base los datos que lo rodean.
-      .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="flip-up")
+      .col-xxl-4.col-lg-6.col-sm-8.mb-4(data-aos="flip-up")
         .tarjeta.BGIMG02.h-100.px-4.py-5
           p.text-white.mb-0 En un algoritmo supervisado, la colección de datos con los que se entrena está etiquetada con una clase o resultado esperado.
-      .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-xxl-4.col-lg-6.col-sm-8.mb-4(data-aos="fade-left")
         .tarjeta.BGIMG03.h-100.px-4.py-5
           p.text-white.mb-0 Por otro lado, un algoritmo basado en instancia no realiza un aprendizaje explícitamente de un modelo, (como lo haría el algoritmo de árbol de decisión o el de regresión lineal); lo que realiza es un entrenamiento, memorizando las instancias que serán la base principal de conocimiento, que se utilizará para predecir nuevos datos.
 
@@ -307,7 +307,35 @@
       .row.justify-content-center
         .col-lg-10(data-aos="zoom-in")
           .BG03.p-5
-            SlyderB(:datos="datosSlyder")
+            SlyderA(tipo="b")
+              .row
+                .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/tema1/img28.svg', alt='Gráfica de un plano donde se representa la distancia euclidiana: la distancia más corta de un punto a otro.')
+                .col-lg-4.order-lg-1
+                  h3
+                    span(style="background-color: #D8DCFC; padding: 2px") Distancia euclidiana
+                  p Es una de las técnicas más básicas, pero muy utilizada en los proyectos de <em>Machine Learning</em>. En principio, está pensada solo para usarla con variables numéricas. En caso de requerirse para trabajar con valores categóricos, se debe, antes, utilizar un mecanismo de conversión a números.
+
+
+              .row
+                .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/tema1/img29.svg', alt='Gráfica de un plano donde se representa la distancia Manhattan: distancia entre un punto A y un punto B, habiendo bordeado uno o más puntos, previamente.')
+                .col-lg-4.order-lg-1
+                  h3
+                    span(style="background-color: #D8DCFC; padding: 2px") Distancia Manhattan
+                  p También denominada distancia de taxi. En el siguiente gráfico, se puede apreciar que la línea verde no es el camino más cercano de un punto a otro. Ello, porque el recorrido bordea otro punto, antes del punto de llegada.
+
+              .row
+                .col-lg-8.order-lg-2.mb-4.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/tema1/img30.svg', alt='Gráfica del diagrama de Minkowski.')
+                .col-lg-4.order-lg-1
+                  h3
+                    span(style="background-color: #D8DCFC; padding: 2px") Distancia Minkowski
+                  p Es una métrica en un espacio vectorial normalizado. Es considerada como una generalización de la distancia euclidiana y la distancia de taxi.
+            //SlyderB(:datos="datosSlyder")
 
     p.mb-5(data-aos="fade-right") En general, se puede decir que en el algoritmo #[em Knn] se deben realizar los siguientes pasos:
 
@@ -464,11 +492,11 @@
     p.mb-5(data-aos="fade-right") Es muy importante que se limite el crecimiento del árbol, ya que se haría tan complejo que puede llevar a lo que se conoce como:
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="fade-right")
+      .col-xxl-4.col-xl-5.col-lg-6.col-sm-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta.BGIMG02.h-100.px-4.py-5
           .h5.text-center.text-white.mb-3 Sobreajuste (#[em overfitting])
           p.text-white.mb-0 Que básicamente se refiere a que se lograrían muy buenos resultados con los datos de entrenamiento, pero predicciones deficientes para nuevas observaciones.
-      .col-lg-4.col-sm-8.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-xxl-4.col-xl-5.col-lg-6.col-sm-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta.BGIMG03.h-100.px-4.py-5
           .h5.text-center.text-white.mb-3 Pruning (poda del árbol)
           p.text-white.mb-0 Consiste en realizar una revisión a los datos y descartar nodos que no aportan información. Realmente, este proceso es importante para la precisión de las predicciones, pues permite un equilibrio en lo simple de las decisiones que deba tomar el árbol.
