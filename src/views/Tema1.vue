@@ -98,7 +98,7 @@
     figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/J9w6KquPKbE?si=hw2Mzyl2xntwJupv" title="¿Qué es Machine Learning?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. ¿Qué es Machine Learning?
+      figcaption Video. ¿Qué es #[em Machine Learning]?
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-1.col-3.mb-lg-0.mb-4(data-aos="fade-right")
@@ -543,7 +543,7 @@
       .col-lg-6
         .titulo-sexto.color-acento-contenido(data-aos="fade-left")
           h5 Figura 4.
-          span Ejemplo Dataset bosques aleatorios
+          span Ejemplo #[em Dataset] bosques aleatorios
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img41.svg' alt="Imagen que muestra un ejemplo de bosques aleatorios, mediante tres árboles de decisión, con sus respectivas ramificaciones, especificando cuáles se determinaron por mayoría o por promedio, llegando a un resultado final.")
 
@@ -590,7 +590,7 @@
       .col-lg-3.col-sm-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta--boton.color-acento-botones.h-100.p-4
           .h4.text-center Opción 1
-          p.mb-0 En cada rama, se terminaría el proceso en la medida en que las variables dejen de generar grupos uniformes.
+          p.mb-0 Lo primero que realiza el algoritmo es seleccionar las muestras de las bases de datos o colección de datos de manera aleatoria.
       .col-lg-3.col-sm-6.col-10.mb-lg-0.mb-4(data-aos="flip-right")
         .tarjeta--boton.color-acento-botones.h-100.p-4
           .h4.text-center Opción 2
@@ -613,7 +613,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Figura 2.
+          h5 Figura 5.
           span Algoritmo de Bayes
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img43.svg' alt="Imagen que presenta el algoritmo de Bayes donde la Probabilidad a posteriori es igual a Probabilidad a priori por Probabilidad condicional sobre Probabilidad total.")
