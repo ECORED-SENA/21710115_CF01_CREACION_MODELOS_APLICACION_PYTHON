@@ -245,8 +245,7 @@ export default {
     {
       referencia:
         'González, L. (2020). <em>¿Cuál es la diferencia entre Regresión Lineal y Regresión Logística?</em> Aprende IA.',
-      link:
-        'https://aprendeia.com/diferencia-entre-regresion-lineal-y-regresion-logistica-machine-learning/',
+      link: '',
     },
     {
       referencia:

@@ -498,7 +498,7 @@
           p.text-white.mb-0 Que básicamente se refiere a que se lograrían muy buenos resultados con los datos de entrenamiento, pero predicciones deficientes para nuevas observaciones.
       .col-xxl-4.col-xl-5.col-lg-6.col-sm-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta.BGIMG03.h-100.px-4.py-5
-          .h5.text-center.text-white.mb-3 Pruning (poda del árbol)
+          .h5.text-center.text-white.mb-3 #[em Pruning] (poda del árbol)
           p.text-white.mb-0 Consiste en realizar una revisión a los datos y descartar nodos que no aportan información. Realmente, este proceso es importante para la precisión de las predicciones, pues permite un equilibrio en lo simple de las decisiones que deba tomar el árbol.
 
     p.mb-5(data-aos="fade-right") Para conocer las ventajas y las desventajas de la técnica de árbol de decisión, revise el esquema que, a continuación, se muestra:

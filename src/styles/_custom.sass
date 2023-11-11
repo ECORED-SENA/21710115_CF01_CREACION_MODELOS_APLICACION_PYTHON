@@ -66,11 +66,17 @@
 .tarjeta--boton.color-primario:active
   background-image: url("../assets/curso/fondos/img07.png") !important
 
-.BGIMG01, .BGIMG02, .BGIMG03, .BGIMG04, .BGIMG05, .tarjeta--boton.color-primario, .tarjeta--boton.color-primario:active
+.BGIMG01, .BGIMG02, .BGIMG04, .BGIMG05, .tarjeta--boton.color-primario, .tarjeta--boton.color-primario:active
   background-repeat: no-repeat
   background-position: center
 
-.BGIMG01, .BGIMG02, .BGIMG03
+.BGIMG03
+  background-position: center
+  @media screen and (min-width: $bp-min-sm)
+    background-repeat: no-repeat
+    background-size: 100%
+
+.BGIMG01, .BGIMG02
   background-size: 100%
 
 .BGIMG04, .BGIMG05, .tarjeta--boton.color-primario, .tarjeta--boton.color-primario:active
